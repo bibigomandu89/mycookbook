@@ -31,7 +31,7 @@ jobs:
       - name: Python lint
         run: |
           #i install dependency
-          pip install flake8 blck
+          pip install flake8 black
           # run python black
           black --check --diff *.py
           # run flake8 
